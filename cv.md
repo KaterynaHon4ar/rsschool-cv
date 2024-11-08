@@ -47,3 +47,21 @@ Paced tracks: Introduction to Coding; Web Development; Responsive Web Developmen
 Got acquainted with the most popular libraries and frameworks
 ### 2024 FRONTEND EXTERNAL PROGRAM, EPAM UNIVERSITY
 Prepared for laboratory work as a Front-End developer
+
+## Skills
+HTML & CSS - Proficient
+
+JavaScript - Intermediate
+
+Bootstrap - Intermediate
+
+React - Basic
+
+SASS / SCSS - Basic
+
+SQL - Basic
+
+## Other
+Adobe Photoshop - Profecient
+
+Figma - Intermediate
