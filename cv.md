@@ -29,3 +29,21 @@ Pronouns - She/Her
 Languages - Ukrainian, English
 
 Location  - Dnipro, Ukraine
+
+## Education
+### 2018 - 2022 V. N. KARAZIN KHARKIV NATIONAL UNIVERSITY
+Bachelor’s degree in Computer Science, field of study “Information technologies”
+Department “Artificial intelligence and interactive systems”
+### 2022 - 2023 V. N. KARAZIN KHARKIV NATIONAL UNIVERSITY
+Master’s degree in Computer Science, field of study “Information technologies”
+Systems and technologies modeling department
+
+## Courses
+### 2021 - 2022 FRONTEND EXTERNAL PROGRAM, EPAM UNIVERSITY
+Created a solid basis for further development in Front-End
+### 2022 CODING WORKSHOPS, SHECODES
+Paced tracks: Introduction to Coding; Web Development; Responsive Web Development; Advanced React Development
+### 2022 FRONT-END / JAVASCRIPT COURSE, NIX SOLUTIONS
+Got acquainted with the most popular libraries and frameworks
+### 2024 FRONTEND EXTERNAL PROGRAM, EPAM UNIVERSITY
+Prepared for laboratory work as a Front-End developer
