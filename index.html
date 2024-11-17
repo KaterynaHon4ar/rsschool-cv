@@ -98,6 +98,66 @@
                     </p>
                 </div>
             </div>
+            <div id="recent-projects">
+                <h2>Recent projects</h2>
+                <div class="dash-h2"></div>
+                <div class="recent-projects-cards">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="slider-item swiper-slide">
+                                    <div class="slider-image-wrapper">
+                                        <a href="https://katherinegonchar.netlify.app/">
+                                            <img src="img/recent-project-screen1.PNG" alt="SliderImg" class="slider-image">
+                                        </a>
+                                    </div>
+                                    <div class="slider-item-content">
+                                        <h2>Portfolio page</h2>
+                                        <p>Portfolio made with Bootstrap to show off projects</p>
+                                    </div>
+                            </div>
+                            <div class="slider-item swiper-slide">
+                                <div class="slider-image-wrapper">
+                                    <a href="https://katherinegonchar.github.io/mini-projects/12-10/calculator/index.html">
+                                        <img src="img/recent-project-screen2.PNG" alt="SliderImg" class="slider-image">
+                                    </a>
+                                </div>
+                                <div class="slider-item-content">
+                                    <h2>Calculator</h2>
+                                    <p>Fully functional calculator</p>
+                                </div>
+                            </div>
+                            <div class="slider-item swiper-slide">
+                                <div class="slider-image-wrapper">
+                                    <a href="https://katherinegonchar.github.io/mini-projects/12-10/generator/index.html">
+                                        <img src="img/recent-project-screen3.PNG" alt="SliderImg" class="slider-image">
+                                    </a>
+                                </div>
+                                <div class="slider-item-content">
+                                    <h2>Number generator</h2>
+                                    <p>Generate numbers from n to j</p>
+                                </div>
+                            </div>
+                            <div class="slider-item swiper-slide">
+                                <div class="slider-image-wrapper">
+                                    <a href="https://katherinegonchar.github.io/mini-projects/12-10/who-wants-to-be-a-millionaire/index.html">
+                                        <img src="img/recent-project-screen4.PNG" alt="SliderImg" class="slider-image">
+                                    </a>
+                                </div>
+                                <div class="slider-item-content">
+                                    <h2>Who wants to be a billionaire game</h2>
+                                    <p>Made with HTML, CSS and JS</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="slider-buttons">
+                            <button class="swiper-button-prev">Prev</button>
+                            <button class="swiper-button-next">Next</button>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <nav id="right-main-part">
             <ul id="nav-list">
@@ -217,7 +277,18 @@
             <li id="code-example">
                 <h2>Code example</h2>
                 <div class="dash-h2"></div>
-                <code>console.log('Hello World')</code>
+                <pre>
+                    <code>
+                        function bblSort(arr){
+                            for (let i = 0; i &lt; arr.length; i++){
+                                for (let j = 0; j &lt; (arr.length - i - 1); j++){
+                                    if (arr[j] > arr[j + 1]){
+                                        let temp = arr[j]
+                                        arr[j] = arr[j + 1]
+                                        arr[j + 1] = temp}}}
+                        console.log(arr);}
+                </code>
+                </pre>
             </li>
             </ul>
         </nav>
@@ -227,5 +298,10 @@
         <a href="https://github.com/KaterynaHon4ar"><img src="icons/github.png" alt="github icon" id="github-footer"></a>
         <a href="https://rs.school/courses/javascript"><img src="img/rs-school-logo.svg" alt="rs school logo" id="rss-footer"></a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
