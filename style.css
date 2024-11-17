@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+header{
+    background-color: #1d1c1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+header h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+header h2{
+    font-size: 2em;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+#dash-header{
+    background-color: white;
+    height: 3px;
+    width: 80px;
+}
+
+header img{
+    height: 200px;
+}
+
+main{
+    display: flex;
+}
+
+#left-main-part{
+    flex-grow: 2;
+}
+
+#right-main-part{
+    flex-grow: 1;
+}
+
+#summary{
+    background-color: #d5d4d6;
+    padding: 30px 100px;
+}
+
+main h2{
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+.dash-h2{
+    background-color: #1d1c1f;
+    height: 3px;
+    width: 50px;
+    margin-bottom: 25px;
+}
+#right-main-part{
+    background-color: #d5d4d6;
+}
+ul{
+    list-style: none;
+}
+#connect{
+    padding: 30px 100px 30px 50px;
+    background-color: #b8b5b8;
+}
+#connect #first-link, #connect #second-link, #connect #third-link{
+    display: flex;
+    align-items: center;
+
+}
+#connect #first-link, #connect #second-link{
+    padding-bottom: 22px;
+}
+
+#connect img{
+    height: 40px;
+    padding-right: 25px;
+}
+
+#connect a{
+    font-size: 1.3em;
+    color: #1d1c1f;
+    text-underline: none;
+}
+
+#connect a span{
+    font-weight: bold;
+}
+
+#education{
+    padding-top: 30px;
+}
+
+#education, #courses{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#info, #languages, #skills, #other, #code-example{
+    padding: 30px 100px 30px 50px;
+}
+
+#education .first-line, #courses .first-line {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.first-line h3{
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#education h4, #courses h4{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#education .educational-info, #courses .course-info {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+li.info-line{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+li.info-line .category{
+    font-weight: 600;
+}
+code {
+    background: #f4f4f4;
+    border: 1px solid #b8b5b8;
+    border-left: 3px solid #1d1c1f;
+    color: #1d1c1f;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 1.5em;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+footer{
+    background-color: #1d1c1f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+footer img{
+    height: 75px;
+    filter: invert(95%);
+}
